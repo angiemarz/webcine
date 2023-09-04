@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <head>
+        <title>CINE</title>
+        <link rel="stylesheet" href="estilos.css">
+        <script src="misScripts.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+       <div class="titulos">
+           <h1>CINE</h1>
+           <h2>RECOMENDACIONES</h2>
+       </div>
+
+       
+            <div class="formc">
+                <form class="edad">
+                    <h3>Ingresa tu edad</h3>
+                    <input id="edad" class="input1" type="text">
+                </form>
+            </div>
+
+            <div class="buttonsclass">
+                <button onclick="recomendar('comedia')">Comedia</button>
+                <button onclick="recomendar('drama')">Drama</button>
+                <button onclick="recomendar('musical')">Musical</button>
+                <button onclick="recomendar('crimen')">Crimen</button>
+            </div>
+            <div>
+                <p id="recomendacion"></p>
+            </div>
+            <div>
+                <h4>by Angela Martinez</h4>
+            </div>
+    </body>
+</html>
